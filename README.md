@@ -7,7 +7,7 @@
 
 1. [Index of /jawiki/](https://dumps.wikimedia.org/jawiki/)から、リンクをたどって、[Wikipedia日本語版](https://ja.wikipedia.org/wiki/メインページ)の記事タイトル一覧ファイルをダウンロードする。
     - [jawiki-20180601-pages-articles-multistream-index.txt.bz2](https://dumps.wikimedia.org/jawiki/20180601/jawiki-20180601-pages-articles-multistream-index.txt.bz2)などの名前のファイルを一つ落とせばよい。
-2. 下記のコマンドを実行すると、抽出結果がテキストファイル`sel.txt`に作成される。\[^1]
+2. 下記のコマンドを実行すると、抽出結果がテキストファイル`sel.txt`に作成される。[^1]
 ```bash
 bzcat sample/jawiki-20180601-pages-articles-multistream-index.txt.bz2 \
 | ./sel.pl \
@@ -34,4 +34,4 @@ $
 ```
 
 
-\[^1]:`sample/jawiki-20180601-pages-articles-multistream-index.txt.bz2`の部分は、ダウンロードしたファイル名を記述する。
+[^1]:`sample/jawiki-20180601-pages-articles-multistream-index.txt.bz2`の部分は、ダウンロードしたファイル名を記述する。
